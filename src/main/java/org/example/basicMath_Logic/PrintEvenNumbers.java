@@ -2,6 +2,7 @@ package org.example.basicMath_Logic;
 
 import java.util.Scanner;
 
+//Problem: To print Even numbers from 1 to Upper Limit(User Input) and the count of total even numbers between them.
 public class PrintEvenNumbers {
     public static void printEvenNumbers() {
         Scanner scanner = new Scanner(System.in);

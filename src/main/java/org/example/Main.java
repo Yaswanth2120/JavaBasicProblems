@@ -1,7 +1,8 @@
 package org.example;
 
 import java.util.Scanner;
-import basicMath_Logic.PrintEvenNumbers;  // Corrected package name
+import org.example.basicMath_Logic.PrintEvenNumbers;  // Corrected package name
+import org.example.basicMath_Logic.SumNaturalNos;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,6 +12,7 @@ public class Main {
 
         // Display options for problems
         System.out.println("1. Print Even Numbers");
+        System.out.println("2. Sum of n natural numbers");
         // Add more problems here as you implement them
 
         System.out.println("Choose a problem to run: ");
@@ -22,7 +24,12 @@ public class Main {
             case 1:
                 PrintEvenNumbers.printEvenNumbers();
                 break;
+
+            case 2 :
+                SumNaturalNos.sumNaturalNos();
+                break;
             // Add more cases for other problems
+
             default:
                 System.out.println("Invalid choice!");
         }
