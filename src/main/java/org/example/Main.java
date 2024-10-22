@@ -18,6 +18,9 @@ public class Main {
         System.out.println("5. Reverse of a Number");
         System.out.println("6. Check Palindrome Number");
         System.out.println("7. Fibonacci for n terms");
+        System.out.println("8. Sum of digits");
+        System.out.println("9. GCD of two numbers");
+        System.out.println("10. LCM of two numbers");
         // Add more problems here as you implement them
 
         System.out.println("Choose a problem to run: ");
@@ -52,6 +55,18 @@ public class Main {
 
             case 7:
                 Fibonacci.fibonacci();
+                break;
+
+            case 8:
+                DigitsSum.digitsSum();
+                break;
+
+            case 9:
+                GCDcalculator.gcdCalculator();
+                break;
+
+            case 10:
+                LCMcalc.lcmCalc();
                 break;
             // Add more cases for other problems
 
