@@ -5,6 +5,7 @@ import java.util.Scanner;
 import org.example.arrays_simpleAlgos.*;
 import org.example.basicMath_Logic.*;
 import org.example.conditions_loops.*;
+import org.example.strings_charOps.StringReverse;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,6 +52,11 @@ public class Main {
         System.out.println("28. Check if two Arrays are equal");
         System.out.println("29. Merge Two Arrays");
         System.out.println("30. Shift Array Elements left by K positions");
+        System.out.println("======================");
+        System.out.println("Strings and Character Operations");
+        System.out.println("======================");
+        System.out.println("31. Reverse of String");
+
 
         // Add more problems here as you implement them
 
@@ -178,6 +184,10 @@ public class Main {
 
             case 30:
                 ShiftLeftByK.shiftLeftByK();
+                break;
+
+            case 31:
+                StringReverse.stringReverse();
                 break;
             // Add more cases for other problems
 
