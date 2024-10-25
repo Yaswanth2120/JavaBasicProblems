@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="553a6609-b2b2-4e5d-9f4d-dc6115a48d68" name="Changes" comment="7 updated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conditions_loops/ArmstrongNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conditions_loops/CheckPrimeInRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conditions_loops/CountDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conditions_loops/LargestOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conditions_loops/LeapYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conditions_loops/MultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conditions_loops/PerfectNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conditions_loops/PowerOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conditions_loops/PyramidPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conditions_loops/SumEvenDigits.java" afterDir="false" />
+    <list default="true" id="553a6609-b2b2-4e5d-9f4d-dc6115a48d68" name="Changes" comment="Conditions and Loops updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays_simpleAlgos/ArrayMaxFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays_simpleAlgos/ArrayMinFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays_simpleAlgos/AverageOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays_simpleAlgos/CheckEqualArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays_simpleAlgos/CheckIfArrayIsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays_simpleAlgos/CountOccurances.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays_simpleAlgos/MergeArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays_simpleAlgos/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays_simpleAlgos/SecondLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays_simpleAlgos/ShiftLeftByK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -130,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729630698840</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Conditions and Loops updated">
+      <option name="closed" value="true" />
+      <created>1729773938415</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729773938415</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,6 +147,7 @@
     <MESSAGE value="2nd Problem updated" />
     <MESSAGE value="4 Problems updated" />
     <MESSAGE value="7 updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 updated" />
+    <MESSAGE value="Conditions and Loops updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conditions and Loops updated" />
   </component>
 </project>

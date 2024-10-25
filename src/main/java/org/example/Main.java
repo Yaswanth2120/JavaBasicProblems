@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
+import org.example.arrays_simpleAlgos.*;
 import org.example.basicMath_Logic.*;
 import org.example.conditions_loops.*;
 
@@ -38,8 +39,19 @@ public class Main {
         System.out.println("19. Find Sum of Even Digits");
         System.out.println("20. Pyramid Pattern");
         System.out.println("======================");
-        System.out.println("CONDITIONS AND LOOPS");
+        System.out.println("Arrays and Simple Algorithms");
         System.out.println("======================");
+        System.out.println("21. Find the maximum in an Array");
+        System.out.println("22. Find the minimum in an Array");
+        System.out.println("23. Count Occurances of an element in an Array");
+        System.out.println("24. Reverse an Array");
+        System.out.println("25. Calculate Average of an Array");
+        System.out.println("26. Check if Array is Sorted");
+        System.out.println("27. Find the Second Largest in the Array");
+        System.out.println("28. Check if two Arrays are equal");
+        System.out.println("29. Merge Two Arrays");
+        System.out.println("30. Shift Array Elements left by K positions");
+
         // Add more problems here as you implement them
 
         System.out.println("Choose a problem to run: ");
@@ -128,6 +140,45 @@ public class Main {
                 PyramidPattern.pyramidPattern();
                 break;
 
+            case 21:
+                ArrayMaxFinder.arrayMaxFinder();
+                break;
+
+            case 22:
+                ArrayMinFinder.arrayMaxFinder();
+                break;
+
+            case 23:
+                CountOccurances.countOccurances();
+                break;
+
+            case 24:
+                ReverseArray.reverseArray();
+                break;
+
+            case 25:
+                AverageOfArray.averageArray();
+                break;
+
+            case 26:
+                CheckIfArrayIsSorted.checkArray();
+                break;
+
+            case 27:
+                SecondLargest.secondLargest();
+                break;
+
+            case 28:
+                CheckEqualArrays.checkEqualArrays();
+                break;
+
+            case 29:
+                MergeArrays.mergeArrays();
+                break;
+
+            case 30:
+                ShiftLeftByK.shiftLeftByK();
+                break;
             // Add more cases for other problems
 
             default:
