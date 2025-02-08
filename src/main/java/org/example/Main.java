@@ -5,7 +5,7 @@ import java.util.Scanner;
 import org.example.arrays_simpleAlgos.*;
 import org.example.basicMath_Logic.*;
 import org.example.conditions_loops.*;
-import org.example.strings_charOps.StringReverse;
+import org.example.strings_charOps.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -56,7 +56,11 @@ public class Main {
         System.out.println("Strings and Character Operations");
         System.out.println("======================");
         System.out.println("31. Reverse of String");
-
+        System.out.println("32. Palindrome of String");
+        System.out.println("33. Count No:of Vowels and Consonants");
+        System.out.println("34. Find Frequencies of characters in string");
+        System.out.println("35. Remove Duplicates from a String");
+        System.out.println("36. Check Anagram");
 
         // Add more problems here as you implement them
 
@@ -188,6 +192,26 @@ public class Main {
 
             case 31:
                 StringReverse.stringReverse();
+                break;
+
+            case 32:
+                PalindromeString.palindromeString();
+                break;
+
+            case 33:
+                CountVowelsConsonants.countVowelsConsonants();
+                break;
+
+            case 34:
+                FrequencyInString.frequencyInString();
+                break;
+
+            case 35:
+                RemoveDuplicates.removeDuplicates();
+                break;
+
+            case 36:
+                CheckAnagram.checkAnagram();
                 break;
             // Add more cases for other problems
 
