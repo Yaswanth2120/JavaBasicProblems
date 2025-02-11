@@ -1,9 +1,13 @@
 # Java Practice Problems
 
-This repository contains Java solutions to **50 basic programming problems**, focusing on building a strong foundation in problem-solving and algorithmic thinking. The problems are divided into 5 parts, each covering different concepts. This README currently includes details of **Problems 1 to 30**.
+This repository contains **Java solutions** to **50 basic programming problems**, focusing on **building a strong foundation in problem-solving** and **algorithmic thinking**. The problems are divided into **5 parts**, each covering different concepts.
 
-## Part 1: Basic Math and Logic (Problems 1-10)
-1. **Print Even Numbers from 1 to 100**
+This README **currently includes details of Problems 1 to 40**.
+
+---
+
+## **📌 Part 1: Basic Math and Logic (Problems 1-10)**
+1. **Print Even Numbers from 1 to `n`**
 2. **Sum of First `n` Natural Numbers**
 3. **Check Prime Number**
 4. **Factorial of a Number (`n!`)**
@@ -14,7 +18,9 @@ This repository contains Java solutions to **50 basic programming problems**, fo
 9. **GCD (Greatest Common Divisor)**
 10. **LCM (Least Common Multiple)**
 
-## Part 2: Conditions and Loops (Problems 11-20)
+---
+
+## **📌 Part 2: Conditions and Loops (Problems 11-20)**
 11. **Check if a Number is Armstrong**
 12. **Check Leap Year**
 13. **Generate Multiplication Table**
@@ -22,11 +28,13 @@ This repository contains Java solutions to **50 basic programming problems**, fo
 15. **Count the Number of Digits**
 16. **Calculate Power of a Number (`a^b`)**
 17. **Check Perfect Number**
-18. **Check Prime in a Range**
+18. **Check Prime Numbers in a Range**
 19. **Sum of Even Digits in a Number**
 20. **Generate Pyramid Pattern**
 
-## Part 3: Arrays and Simple Algorithms (Problems 21-30)
+---
+
+## **📌 Part 3: Arrays and Simple Algorithms (Problems 21-30)**
 21. **Find the Maximum Element in an Array**
 22. **Find the Minimum Element in an Array**
 23. **Count Occurrences of an Element in an Array**
@@ -38,7 +46,23 @@ This repository contains Java solutions to **50 basic programming problems**, fo
 29. **Merge Two Arrays**
 30. **Shift Array Elements Left by `k` Positions**
 
-## How to Run the Code
-1. Clone the repository to your local machine:
+---
+
+## **📌 Part 4: Strings and Character Operations (Problems 31-40)**
+31. **Reverse a String**
+32. **Check Palindrome String**
+33. **Count Number of Vowels and Consonants**
+34. **Find Frequency of Characters in a String**
+35. **Remove Duplicates from a String**
+36. **Check if Two Strings are Anagrams**
+37. **Find the Longest Word in a Sentence**
+38. **Convert Lowercase to Uppercase**
+39. **Find a Substring in a String**
+40. **Sort Characters in a String**
+
+---
+
+## **🛠️ How to Run the Code**
+1. **Clone the repository to your local machine**:
    ```bash
    git clone <repository-url>
