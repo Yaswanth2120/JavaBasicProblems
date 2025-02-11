@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Java Practice Problems");
         System.out.println("======================");
 
-        while(true) {
+
             // Display options for problems
             System.out.println("BASIC MATH AND LOGIC");
             System.out.println("======================");
@@ -62,18 +62,16 @@ public class Main {
             System.out.println("34. Find Frequencies of characters in string");
             System.out.println("35. Remove Duplicates from a String");
             System.out.println("36. Check Anagram");
+            System.out.println("37. Find Longest word in sentence");
+            System.out.println("38. Convert the String to Upper Case");
+            System.out.println("39. Find the Substring");
+            System.out.println("40. Sort the Characters in String");
 
             // Add more problems here as you implement them
             System.out.println("0. Exit the Program");
             System.out.println("Choose a problem to run: ");
 
             int choice = scanner.nextInt();
-
-            //Exit if the user enters 0
-            if (choice == 0) {
-                System.out.println("Exiting the Program, Goodbye!!");
-                break;
-            }
 
             // Switch-case for problem selection
             switch (choice) {
@@ -220,12 +218,27 @@ public class Main {
                 case 36:
                     CheckAnagram.checkAnagram();
                     break;
+
+                case 37:
+                    LongestWord.longestWord();
+                    break;
+
+                case 38:
+                    toUpperCase.convetToUpper();
+                    break;
+
+                case 39:
+                    FindSubString.findSubString();
+                    break;
+
+                case 40:
+                    SortCharsInString.sortCharsInStr();
+                    break;
                 // Add more cases for other problems
 
                 default:
                     System.out.println("Invalid choice! Please choose a number from the given options.");
             }
-        }
         scanner.close();  // Close scanner
     }
 }
